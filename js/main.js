@@ -995,9 +995,9 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                             return; 
                         } else if (!isAuto) {
                             const options = {
-                                suggestedName: 'starlight_save.json',
+                                suggestedName: 'starfall_save.json',
                                 types: [{
-                                    description: 'Starlight Save File',
+                                    description: 'StarfallXD Save File',
                                     accept: { 'application/json': ['.json'] },
                                 }],
                             };
@@ -1024,13 +1024,13 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                 const url = URL.createObjectURL(blob);
                 const a = document.createElement('a');
                 a.href = url;
-                a.download = 'starlight_save.json';
+                a.download = 'starfall_save.json';
                 document.body.appendChild(a);
                 a.click();
                 document.body.removeChild(a);
                 URL.revokeObjectURL(url);
                 
-                if (!isAuto) showModal("Exported as download!<br><br>Browser may create duplicates like 'starlight_save (1).json' unless you use a browser that supports File System Access (Chrome/Edge on PC).");
+                if (!isAuto) showModal("Exported as download!<br><br>Browser may create duplicates like 'starfall_save (1).json' unless you use a browser that supports File System Access (Chrome/Edge on PC).");
             };
 
             const handleSelectAutoSaveFile = async () => {
@@ -1038,7 +1038,7 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                     try {
                         const [handle] = await window.showOpenFilePicker({
                             types: [{
-                                description: 'Starlight Save File',
+                                description: 'Starfall Save File',
                                 accept: { 'application/json': ['.json'] },
                             }],
                             multiple: false
@@ -1197,16 +1197,16 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
             const EmbedContent = e('div', { id: 'embed-content', className: `menu-tab-content ${activeTab === 'embed' ? 'active' : ''}` },
                 e(PageHeader, { title: 'Games Hub', onBack: () => setActiveTab('home') }),
                 
-                e('div', { className: 'settings-group-title', style: { width: '90%', maxWidth: '800px', marginTop: '20px' } }, 'Starlight Official'),
+                e('div', { className: 'settings-group-title', style: { width: '90%', maxWidth: '800px', marginTop: '20px' } }, 'Starfall Official'),
                 e('div', { className: 'menu-buttons', style: { marginTop: '10px' } },
                     e('button', { 
                         onClick: () => showModal('Please use Nova Hub as this hub is down, sorry for the inconvenience'),//openGame('pages/twilight'),
                         style: { backgroundColor: 'var(--primary-color)', color: 'white' }
                     }, 
-                        e('i', { className: 'fas fa-gamepad' }), 'Twilight Games'
+                        e('i', { className: 'fas fa-gamepad' }), 'Twidark Games'
                     ),
                     e('button', { onClick: () => openGame('pages/gamesearch') }, 
-                        e('i', { className: 'fas fa-gamepad' }), 'Nova Hub'
+                        e('i', { className: 'fas fa-gamepad' }), 'StarfallXD Game Hub'
                     )
                 ),
 
