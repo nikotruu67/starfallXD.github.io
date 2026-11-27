@@ -21,7 +21,7 @@ const PRESETS = [
     { name: "Khan Academy", title: "Khan Academy", favicon: "https://www.khanacademy.org/favicon.ico", link: "https://www.khanacademy.org" },
     { name: "Outlook", title: "Outlook Mail", favicon: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/microsoft-outlook-icon.png", link: "https://outlook.live.com" },
     { name: "Pear Assessment", title: "Pear Assessment", favicon: "https://cdn.edulastic.com/JS/webresources/images/manifest/pear-icon-256x256.png", link: "https://app.edulastic.com/home/assignments" },
-    { name: "StarlightGG (Default Page)", title: "StarlightGG | Free Games!", favicon: "https://starlightgg.github.io/favicon.ico", link: "https://classroom.google.com" },
+    { name: "StarfallXD (Default Page)", title: "StarlightGG | Free Games!", favicon: "https://starlightgg.github.io/favicon.ico", link: "https://classroom.google.com" },
     { name: "Zearn", title: "Student Home - Zearn", favicon: "https://webassets.zearn.org/assets/zearn_fav_new.png", link: "https://zearn.org" },
     { name: "XanEdu (Sharedbook)", title: "SharedBook", favicon: "https://blog.sharedbook.com/hubfs/favicon.ico", link: "https://www.xanedu.com/" },
     { name: "Prodigy", title: "Prodigy Math | Boost Student Learning & Love of Math", favicon: "https://cdn.prod.website-files.com/67290eb56db5c02dee62db8d/67ad86542f1cda144512a37b_favicon-32x32.png", link: "https://www.prodigygame.com/main-en" },
@@ -35,7 +35,7 @@ const PROXY_SERVERS = [
 //enable if wanted
 const SURF_WEB_ENABLED = false; 
 // edit this if wanted (this message is for Doge UB)
-const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown menu at the top to switch between proxy servers.<br><br><b>Tips:</b><br>- If a site is blocked, try a different server. (All may be blocked, sorry)";
+const SURF_INFO_MESSAGE = "<b>Welcome to Surf the Web!</b><br><br>Use the dropdown menu at the top to switch between proxy servers.<br><br><b>Tips:</b><br>- If a site is blocked, try a different server. (All may be blocked, sorry)";
 
         // --- MODAL COMPONENT ---
         const Modal = ({ message, isActive, onClose }) => {
