@@ -1,8 +1,8 @@
 <h1 align="center">
-StarlightGG
+StarlightXD
 </h1>
 <p align="center">
-  <img src="favicons/favicon.png" alt="Starlight Games Logo" width="120">
+  <img src="favicons/favicon.png" alt="Starfall Games Logo" width="120">
 </p>
 
 <p align="center">
