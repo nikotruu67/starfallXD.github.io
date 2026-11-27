@@ -1134,7 +1134,7 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
             const HomeContent = e('div', { id: 'home-content', className: `menu-tab-content ${activeTab === 'home' ? 'active' : ''}` },
                 e('div', { className: 'dashboard-container' },
                     e('div', { className: 'hero-section' },
-                        e('h2', null, 'Welcome to StarlightGG'),
+                        e('h2', null, 'Welcome to StarfallXD'),
                         e('div', { id: 'quote-display', className: isQuoteFading ? 'fade-out' : '' }, `"${quote}"`),
                         e('div', { style: { marginTop: '15px', fontWeight: '600', color: 'var(--primary-color)' } }, 
                              `Active Users: ${onlineCount === 0 ? 1 : onlineCount}`
@@ -1171,7 +1171,7 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                         }),
                          e(DashboardCard, { 
                             icon: 'fas fa-rocket', 
-                            title: 'Surf Web', 
+                            title: 'Surf the Web', 
                             desc: 'Browse the internet freely',
                             accent: true,
                             onClick: () => {
@@ -1200,7 +1200,7 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                 e('div', { className: 'settings-group-title', style: { width: '90%', maxWidth: '800px', marginTop: '20px' } }, 'Starfall Official'),
                 e('div', { className: 'menu-buttons', style: { marginTop: '10px' } },
                     e('button', { 
-                        onClick: () => showModal('Please use Nova Hub as this hub is down, sorry for the inconvenience'),//openGame('pages/twilight'),
+                        onClick: () => showModal('Please use Games Hub as this hub is down, sorry for the inconvenience'),//openGame('pages/twilight'),
                         style: { backgroundColor: 'var(--primary-color)', color: 'white' }
                     }, 
                         e('i', { className: 'fas fa-gamepad' }), 'Twidark Games'
@@ -1400,7 +1400,7 @@ const SURF_INFO_MESSAGE = "<b>Welcome to Surf Web!</b><br><br>Use the dropdown m
                                 fontSize: '1.2em' 
                             } }, e('i', { className: 'fas fa-lightbulb' })),
                             e('div', { style: { fontSize: '0.9em', opacity: 0.9 } },
-                                e('strong', null, 'Starlight Tip:'), e('br'),
+                                e('strong', null, 'Starfall Tip:'), e('br'),
                                 'Auto-saves occur every ', e('strong', null,'25 seconds'), '.', e('br'),
                                 'You must ', e('strong', null, 'Export Full Backup'), ' once to grant permission.', e('br'), e('br'),
                                 'If you are on a ', e('strong', null, 'Chromebook'), ', it is recommended to drag \'n drop the file into ', e('strong', null, 'My Drive'), '.', e('br'), e('br'),
